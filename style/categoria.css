@@ -53,47 +53,6 @@ header{
     line-height: normal;
 }
 
-.phraseTitle{
-    color: #D8C4B6;
-    font-family: Roboto Mono;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 3px;
-}
-
-.name_phraseDay{
-    font-family: Roboto Serif;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.name_authorPhraseDay{
-    color: #F5EFE7;
-    font-family: Roboto;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 100;
-}
-
-.frase{
-    padding-left: 6rem;
-    color: #213555;
-    font-family: Roboto Mono;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-}
-
-.author_name{
-    font-family: Roboto;
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 400;
-   
-}
-
 footer{
     background-color: #d8c4b6;
     color: #4f709c;

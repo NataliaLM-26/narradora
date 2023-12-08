@@ -2,11 +2,10 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../style/categoria.css">
+    <link rel="stylesheet" href="../style/categorias.css">
     <title>Categorías</title>
 </head>
 <body>
-
     <nav class="navbar">
         <img src="../assets/logo.png" alt="narradora" class="logo_icon" >
         <ul>
@@ -34,40 +33,44 @@
 
     <section class = "categories">
         <div class = "item_cat">
-            <img src="./assets/" alt="">
-            <p>Amor</p>
+            <img src="../assets/corazon.png" alt="amistad" width="50">
+            <a href="../vistas/categoria.php">Amor</a>
         </div>
         <div class = "item_cat">
-            <img src="./assets/" alt="">
-            <p>Amistad</p>
+            <img src="../assets/Group 4.png" alt="amistad" width="50">
+            <a href="#">Amistad</a>
         </div>
         <div class = "item_cat">
-            <img src="./assets/" alt="">
-            <p>Célebres</p>
+            <img src="../assets/lente.png" alt="">
+            <a href="#">Célebres</a>
         </div>
         <div class = "item_cat">
-            <img src="./assets/" alt="">
-            <p>Cine</p>
+            <img src="../assets/cine.png" alt="">
+            <a href="#">Cine</a>
         </div>
         <div class = "item_cat">
-            <img src="./assets/" alt="">
-            <p>Confianza</p>
+            <img src="../assets/confianza.png" alt="">
+            <a href="#">Confianza</a>
         </div>
         <div class = "item_cat">
-            <img src="./assets/" alt="">
-            <p>Desamor</p>
+            <img src="../assets/desamor.png" alt="">
+            <a href="#">Desamor</a>
         </div>
         <div class = "item_cat">
-            <img src="./assets/" alt="">
-            <p>Enseñanza</p>
+            <img src="../assets/teach.png" alt="">
+            <a href="#">Enseñanza</a>
         </div>
         <div class = "item_cat">
-            <img src="./assets/" alt="">
-            <p>Humor</p>
+            <img src="../assets/humor.png" alt="">
+            <a href="#">Humor</a>
         </div>
         <div class = "item_cat">
-            <img src="./assets/" alt="">
-            <p>Inspiración</p>
+            <img src="../assets/libro.png" alt="">
+            <a href="#">Inspiración</a>
+        </div>
+        <div class = "item_cat">
+            <img src="../assets/otros.png" alt="otros">
+            <a href="#">Otros</a>
         </div>
     </section>
 

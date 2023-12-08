@@ -30,9 +30,7 @@
     <header class="titulo">
         <h2>Autores</h2>
     </header>
-
-    <section class = "autores">
-        <div class = "author_name">
+        <div class = "autores">
         <?php
         $servername = "localhost:3306";
         $username = "root";
@@ -52,7 +50,7 @@
         // Verifica si hay resultados y luego itera sobre ellos
         if ($result->num_rows > 0) {
             while ($row = $result->fetch_assoc()) {
-                echo "<p class='author_name'>" . $row["autornombre"] . "</p>";
+                echo "<p>". $row["autornombre"] ."</p>";
             }
         } else {
             echo "No se encontraron autores.";
@@ -60,11 +58,10 @@
     
         ?>
         </div>
-    </section>
 
-    <footer>
-        <p>2023 NatLM</p>
-        <button class="btn_primay">Suscribirse</button>
-    </footer>
+        <footer>
+            <p>2023 NatLM</p>
+            <a href="../vistas/suscripcion.php" class="btn_primay">Suscribirse </a>
+        </footer>
 </body>
 </html>

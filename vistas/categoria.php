@@ -3,18 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/index.css">
-    <title>Categoría</title>
+    <link rel="stylesheet" href="../style/categoria.css">
+    <title>Categoría: Amor</title>
 </head>
 <body>
-    <nav>
-        <img src="" alt="">
-        <ul>
-            <li>Categorías</li>
-            <li>Autores</li>
-            <li><box-icon></box-icon></li>
-        </ul>
-    </nav>
 
     <header>
         <h1>Amor</h1>
