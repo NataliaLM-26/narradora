@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/index.css">
-    <title>Suscripción</title>
+    <title>Mario Benedetti</title>
 </head>
 <body>
-<nav class="navbar">
-    <img src="./assets/logo.png" alt="narradora" class="logo_icon" >
-    <ul>
+    <nav class="navbar">
+        <img src="./assets/logo.png" alt="narradora" class="logo_icon" >
+        <ul>
         <li>
             <a href="./vistas/categorias.php">
             Categorías
@@ -24,16 +24,20 @@
     </ul>
     </nav>
 
-    <section class="message_suscription">
-        <h3>Suscripcion</h3>
-        <p>Al realizar tu suscripción aceptas que haremos llegar un correo diario con una frase para tu día a día.</p>
-        <form action="">
-            <label for="">Correo Electrónico</label>
-            <input type="text" placeholder="alguien@example.com">
-        </form>
-        <button class="btn_primary">Aceptar</button>
-    </section>
+    <header>
+        <h1>Benedetti, Mario</h1>
+    </header>
 
+    <div class=text_infoAuthor>
+        <p>(1920-2009) Escritor y poeta uruguayo, autor de una extensa obra literaria que abarca la crítica literaria, la poesía, el ensayo y la narrativa.</p>
+    </div>
+    
+    <section class="section_phrases">
+        <div class="item_phrase">
+            <p class="text_phrase">Uno está enamorado cuando se da cuenta de que otra persona es única.</p>
+        </div>
+    </section>
+    
     <footer>
         <p>2023 NatLM</p>
         <button class="btn_primay">Suscribirse</button>

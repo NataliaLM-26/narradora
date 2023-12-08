@@ -1,34 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mario Benedetti</title>
+    <link rel="stylesheet" href="../style/autores.css">
+    <title>Autores</title>
 </head>
 <body>
-<nav>
-        <img src="" alt="">
+    <nav class="navbar">
+        <img src="../assets/logo.png" alt="narradora" class="logo_icon" >
         <ul>
-            <li>Categorías</li>
-            <li>Autores</li>
-            <li><box-icon></box-icon></li>
+            <li>
+                <a href="../vistas/categorias.php">
+                Categorías
+                </a>
+            </li>
+            <li>
+                <a href="../vistas/autores.php">
+                Autores
+                </a>
+            </li>
+            <li>
+                <a href="../index.php">
+                    <img src="../assets/home.png" alt="home" class="home_icon">
+                </a>
+            </li>
         </ul>
     </nav>
 
-    <header>
-        <h1>Benedetti, Mario</h1>
+    <header class="titulo">
+        <h2>Autores</h2>
     </header>
 
-    <div class=text_infoAuthor>
-        <p>(1920-2009) Escritor y poeta uruguayo, autor de una extensa obra literaria que abarca la crítica literaria, la poesía, el ensayo y la narrativa.</p>
-    </div>
+    <section class = "autores">
+        <div class = "author_name">
+        <?php
+        $servername = "localhost:3306";
+        $username = "root";
+        $password = "laptophp";
+        $dbname = "narradora";
+
+        $conn = new mysqli($servername, $username, $password, $dbname);
+
+        // Verifica la conexión
+        if ($conn->connect_error) {
+            die("Conexión fallida: " . $conn->connect_error);
+        }
+
+        $sql="SELECT autornombre FROM frase";
+        $result=$conn->query($sql);
+
+        // Verifica si hay resultados y luego itera sobre ellos
+        if ($result->num_rows > 0) {
+            while ($row = $result->fetch_assoc()) {
+                echo "<p class='author_name'>" . $row["autornombre"] . "</p>";
+            }
+        } else {
+            echo "No se encontraron autores.";
+        }
     
-    <section class="section_phrases">
-        <div class="item_phrase">
-            <p class="text_phrase">Uno está enamorado cuando se da cuenta de que otra persona es única.</p>
+        ?>
         </div>
     </section>
-    
+
     <footer>
         <p>2023 NatLM</p>
         <button class="btn_primay">Suscribirse</button>

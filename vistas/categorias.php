@@ -2,20 +2,33 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style/categoria.css">
     <title>Categorías</title>
 </head>
 <body>
 
-    <nav>
-        <img src="" alt="" class="logo_icon">
+    <nav class="navbar">
+        <img src="../assets/logo.png" alt="narradora" class="logo_icon" >
         <ul>
-            <li>Categorías</li>
-            <li>Autores</li>
-            <li><img src="./assets/" alt="" class="home_icon"></li>
+            <li>
+                <a href="../vistas/categorias.php">
+                Categorías
+                </a>
+            </li>
+            <li>
+                <a href="../vistas/autores.php">
+                Autores
+                </a>
+            </li>
+            <li>
+                <a href="../index.php">
+                    <img src="../assets/home.png" alt="home" class="home_icon">
+                </a>
+            </li>
         </ul>
-   </nav>
+    </nav>
 
-    <header>
+    <header class= "categoria">
         <h2>Categorías</h2>
     </header>
 
@@ -60,7 +73,7 @@
 
     <footer>
         <p>2023 NatLM</p>
-        <button class="btn_primay">Suscribirse</button>
+        <a href="../vistas/suscripcion.php" class="btn_primay">Suscribirse </a>
     </footer>
 </body>
 </html>
