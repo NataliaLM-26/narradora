@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,26 @@
     <title>Categoría: Amor</title>
 </head>
 <body>
+    <nav class="navbar">
+        <img src="../assets/logo.png" alt="narradora" class="logo_icon" >
+        <ul>
+            <li>
+                <a href="../vistas/categorias.php">
+                Categorías
+                </a>
+            </li>
+            <li>
+                <a href="../vistas/autores.php">
+                Autores
+                </a>
+            </li>
+            <li>
+                <a href="../index.php">
+                    <img src="../assets/home.png" alt="home" class="home_icon">
+                </a>
+            </li>
+        </ul>
+    </nav>
 
     <header>
         <h1>Amor</h1>
@@ -19,7 +39,7 @@
 
     <footer>
         <p>2023 NatLM</p>
-        <button class="btn_primay">Suscribirse</button>
+        <a href="./vistas/suscripcion.php" class="btn_primay">Suscribirse </a>
     </footer>
 </body>
 </html>
