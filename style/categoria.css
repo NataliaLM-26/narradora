@@ -26,6 +26,14 @@ body{
 }
 
 header{
+    background-color: #4f709c;
+    padding-left: 6rem;
+    height: 8rem;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left; */
+
     color: #FFF;
     font-family: Roboto Serif;
     font-size: 30px;
@@ -34,7 +42,22 @@ header{
     line-height: normal;
 }
 
+.frase{
+    padding-left: 6rem;
+    color: #213555;
+    font-family: Roboto Mono;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+}
 
+.author_name{
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+   
+}
 
 footer{
     background-color: #d8c4b6;

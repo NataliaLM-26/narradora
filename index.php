@@ -7,24 +7,24 @@
 </head>
 <body>
     <nav class="navbar">
-    <img src="./assets/logo.png" alt="narradora" class="logo_icon" >
-    <ul>
-        <li>
-            <a href="./vistas/categorias.php">
-            Categorías
-            </a>
-        </li>
-        <li>
-            <a href="./vistas/autores.php">
-            Autores
-            </a>
-        </li>
-        <li>
-            <a href="./index.php">
-                <img src="./assets/home.png" alt="home" class="home_icon">
-            </a>
-        </li>
-    </ul>
+        <img src="./assets/logo.png" alt="narradora" class="logo_icon" >
+        <ul>
+            <li>
+                <a href="./vistas/categorias.php">
+                Categorías
+                </a>
+            </li>
+            <li>
+                <a href="./vistas/autores.php">
+                Autores
+                </a>
+            </li>
+            <li>
+                <a href="./index.php">
+                    <img src="./assets/home.png" alt="home" class="home_icon">
+                </a>
+            </li>
+        </ul>
     </nav>
     
     <header>
